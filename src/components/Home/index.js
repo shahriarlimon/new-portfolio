@@ -9,13 +9,23 @@ import './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['l', 'o', 'b', 'o', 'd', 'a', 'n']
+  const nameArray = ['h', 'a', 'h', 'r', 'i', 'a', 'r', '', 'L', 'i', 'm', 'o', 'n']
   const jobArray = [
-    'w',
+    'F',
+    'u',
+    'l',
+    'l',
+    's',
+    't',
+    'a',
+    'c',
+    'k',
+    ' ',
+    'W',
     'e',
     'b',
-    ' ',
-    'd',
+    '',
+    'D',
     'e',
     'v',
     'e',
@@ -39,10 +49,10 @@ const Home = () => {
         <div className="text-zone">
           <h1>
             <span className={letterClass}>H</span>
-            <span className={`${letterClass} _12`}>i,</span>
+            <span className={`${letterClass} _8`}>i,</span>
             <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
+            <span className={`${letterClass} _9`}>I</span>
+            <span className={`${letterClass} _10`}>'m</span>
             <img
               src={LogoTitle}
               alt="JavaScript Developer Name, Web Developer Name"
@@ -50,16 +60,16 @@ const Home = () => {
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
-              idx={15}
+              idx={11}
             />
             <br />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={jobArray}
-              idx={22}
+              idx={12}
             />
           </h1>
-          <h2>Front End Developer / JavaScript Expert / Youtuber</h2>
+          <h2>Front End Developer / MERN Stack Developer/ JavaScript Expert </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

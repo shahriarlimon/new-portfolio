@@ -56,6 +56,12 @@
     transform: rotateX(-90deg) translateZ(100px);
     color: #ec4d28;
   }
+  .face7{
+    transform:  rotateZ(-90) rotateY(180)  translateZ(100px);
+  }
+  .face8{
+    transform:rotateX(-90) rotateY(90) translateZ(100px);
+  }
 }
 
 @keyframes spincube {
