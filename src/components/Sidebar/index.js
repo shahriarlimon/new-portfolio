@@ -7,7 +7,7 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
-  faSkype,
+  faTwitter,
 } from '@fortawesome/free-brands-svg-icons'
 import {
   faHome,
@@ -24,21 +24,21 @@ const Sidebar = () => {
 
   return (
     <div className="nav-bar">
-      <Link 
+      <Link
         className="logo"
         to="/"
         onClick={() => setShowNav(false)}>
         <img src={LogoS} alt="Logo" />
       </Link>
       <nav className={showNav ? 'mobile-show' : ''}>
-        <NavLink 
+        <NavLink
           exact="true"
           activeclassname="active"
           to="/"
           onClick={() => setShowNav(false)}>
           <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </NavLink>
-        <NavLink 
+        <NavLink
           activeclassname="active"
           className="about-link"
           to="/about"
@@ -61,7 +61,7 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
-        <FontAwesomeIcon 
+        <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
           color="#ffd700"
@@ -71,7 +71,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/shahriarlimon/"
             target="_blank"
             rel="noreferrer"
           >
@@ -84,7 +84,7 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/shahriarlimon"
             target="_blank"
             rel="noreferrer"
           >
@@ -96,34 +96,21 @@ const Sidebar = () => {
           </a>
         </li>
         <li>
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a href="https://twitter.com/ShahriarLimon16?t=7ogtmCeffqy_NP3L4wV7lA&s=09" rel="noreferrer" target="_blank">
             <FontAwesomeIcon
-              icon={faYoutube}
-              color="#4d4d4e"
-              className="anchor-icon"
-            />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon
-              icon={faSkype}
+              icon={faTwitter}
               color="#4d4d4e"
               className="anchor-icon"
             />
           </a>
         </li>
       </ul>
-      <FontAwesomeIcon 
-          onClick={() => setShowNav(true)}
-          icon={faBars}
-          color="#ffd700"
-          size="3x"
-          className='hamburger-icon' />
+      <FontAwesomeIcon
+        onClick={() => setShowNav(true)}
+        icon={faBars}
+        color="#ffd700"
+        size="3x"
+        className='hamburger-icon' />
     </div>
   )
 }

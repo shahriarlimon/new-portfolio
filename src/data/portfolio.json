@@ -1,34 +1,48 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        },
-        {
-            "cover": "/portfolio/1/one.png",
-            "title": "GGWP",
-            "description": "React, JSX, Tailwind, Jest",
-            "url": "http://google.com"
-        }
-    ]
+  "portfolio": [
+    {
+      "cover": "/portfolio/images/modernEcommerce.png",
+      "title": "Ecommerce(MERN STACK)",
+      "description": "React,Redux,Nodejs,Express,Mongodb,MaterialUI",
+      "live": "https://modern-ecommarce.web.app/",
+      "client": "https://github.com/shahriarlimon/modern_e-commerce_frontend",
+      "server": "https://github.com/shahriarlimon/modern_e-commerce_frontend"
+    },
+    {
+      "cover": "/portfolio/images/autoStars.png",
+      "title": "The Autostars(MERN STACK)",
+      "description": "React,Tailwind,Nodejs,Mongodb,Firebase,Express",
+      "live": "https://the-autostars.web.app/",
+      "client": "https://github.com/shahriarlimon/the-auto-stars-client",
+      "server": "https://github.com/shahriarlimon/the-autostars-server"
+    },
+    {
+      "cover": "/portfolio/images/doctorChamber.png",
+      "title": "DR.Marckel",
+      "description": "React,Tailwind, DaisyUI, Firebase",
+      "live": "https://github.com/shahriarlimon/the-auto-stars-client",
+      "client": "https://github.com/shahriarlimon/doctor_markel"
+    },
+    {
+      "cover": "/portfolio/images/droneZone.png",
+      "title": "Drone Zone",
+      "description": "React, Tailwind, Firebase, React-router-dom",
+      "live": "https://animated-drone-zone.netlify.app/",
+      "client": "https://github.com/shahriarlimon/drone-zone"
+    },
+    {
+      "cover": "/portfolio/images/bookReader.png",
+      "title": "Book Reader",
+      "description": "React, CSS, Tailwind,HTML,React-router-dom ",
+      "live": "https://hereisbookreader.netlify.app/",
+      "client": "https://github.com/shahriarlimon/bookReader"
+    },
+    {
+      "cover": "/portfolio/images/phonoMania.png",
+      "title": "Phono Mania",
+      "description": "React,Tailwind,CSS,HTML,React-router-dom",
+      "live": "https://phonomania.netlify.app/",
+      "client": "https://github.com/shahriarlimon/phono-mania"
+    }
+  ]
 }

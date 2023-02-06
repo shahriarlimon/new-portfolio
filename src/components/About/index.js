@@ -52,10 +52,16 @@ const About = () => {
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
+            <div className="face2">
+              <SiRedux color="#764ABC" />
+            </div>
+            <div className="face1">
+              <FaNodeJs color="#83CD29" />
+            </div>
             {/*  <div className="face1">
               <FontAwesomeIcon icon={faAngular} color="#DD0031" />
             </div> */}
-           {/*  <div className="face2">
+            {/*  <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />
             </div> */}
             <div className="face3">
@@ -69,12 +75,6 @@ const About = () => {
             </div>
             <div className="face6">
               < SiMongodb color="#4FAA41" />
-            </div>
-            <div className="face2">
-              <SiRedux color="#764ABC" />
-            </div>
-            <div className="face1">
-              <FaNodeJs color="#83CD29" />
             </div>
 
           </div>
